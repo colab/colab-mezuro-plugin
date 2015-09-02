@@ -1,7 +1,7 @@
 
-from ..utils.apps import ColabPluginAppConfig
+from colab.plugins.utils.apps import ColabPluginAppConfig
 
 
 class MezuroPluginAppConfig(ColabPluginAppConfig):
-    name = 'colab.plugins.mezuro'
+    name = 'colab_mezuro'
     verbose_name = 'Mezuro Plugin'

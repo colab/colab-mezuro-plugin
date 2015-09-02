@@ -1,3 +1,3 @@
 
 
-default_app_config = 'colab.plugins.mezuro.apps.MezuroPluginAppConfig'
+default_app_config = 'colab_mezuro.apps.MezuroPluginAppConfig'
