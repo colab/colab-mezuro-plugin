@@ -10,7 +10,7 @@ upstream = 'http://localhost:3000/mezuro/'
 urls = {
     'include': 'colab_mezuro.urls',
     'namespace': 'mezuro',
-    'prefix': 'mezuro',
+    'prefix': '^mezuro/',
 }
 
 menu_title = _('Code Quality')
