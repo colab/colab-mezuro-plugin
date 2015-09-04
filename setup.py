@@ -7,7 +7,10 @@ A Mezuro plugin for Colab.
 """
 from setuptools import setup, find_packages
 
-install_requires = ['colab']
+install_requires = [
+    'colab',
+    'kalibro_client==1.3.0',
+]
 
 tests_require = ['mock']
 
