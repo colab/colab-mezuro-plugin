@@ -12,7 +12,10 @@ install_requires = [
     'kalibro_client==1.3.0.1',
 ]
 
-tests_require = ['mock']
+tests_require = [
+    'mock',
+    'kalibro_client==1.3.0.1',
+]
 
 
 setup(
