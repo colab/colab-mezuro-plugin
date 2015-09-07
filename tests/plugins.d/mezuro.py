@@ -19,11 +19,11 @@ url = colab_url_factory('mezuro')
 
 menu_urls = (
     url(display=_('Projects'), viewname='mezuro',
-        kwargs={'path': '/projects'}, auth=False),
+        kwargs={'path': 'projects'}, auth=False),
     url(display=_('Repositories'), viewname='mezuro',
-        kwargs={'path': '/repositories'}, auth=False),
+        kwargs={'path': 'repositories'}, auth=False),
     url(display=_('Configurations'), viewname='mezuro',
-        kwargs={'path': '/kalibro_configurations'}, auth=False),
+        kwargs={'path': 'kalibro_configurations'}, auth=False),
     url(display=_('Reading Groups'), viewname='mezuro',
-        kwargs={'path': '/reading_groups'}, auth=False),
+        kwargs={'path': 'reading_groups'}, auth=False),
 )
