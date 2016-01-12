@@ -20,7 +20,7 @@ tests_require = [
 
 setup(
     name="colab-mezuro",
-    version='0.1.0',
+    version='0.1.1',
     author='Rafael Manzo',
     author_email='rr.manzo@gmail.com',
     url='https://github.com/colab/colab-mezuro-plugin',
