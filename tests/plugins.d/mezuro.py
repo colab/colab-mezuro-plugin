@@ -5,7 +5,9 @@ name = 'colab_mezuro'
 verbose_name = 'Mezuro Plugin'
 
 upstream = 'http://localhost:3000/mezuro/'
-#middlewares = []
+# middlewares = []
+extra = {'processor_address': 'http://localhost:8082',
+         'configurations_address': 'http://localhost:8083'}
 
 urls = {
     'include': 'colab_mezuro.urls',
